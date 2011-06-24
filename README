@@ -1,3 +1,19 @@
+--- plCrashReporter Decoder ---
 
+INSTALL:
+
+  $ sudo cp crashDecoder.py HexToBinary plcrashutil /usr/local/bin
+
+USE:
+
+Put your crash report data into a text file and save it. Then run:
+
+  $ crashDecoder.py FILENAME
+
+It puts the decoded crash report in a file called FILENAME_crash.
+
+TODO:
+ - Work on symbolicating crash reports
+ - Make makefile
 
 Copyright 2011 Mark Cerqueira
