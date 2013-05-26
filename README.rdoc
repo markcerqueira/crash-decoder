@@ -1,4 +1,4 @@
-= crashDecoder - PL Crash Reporter Decoder
+= crash-decoder - PL Crash Reporter Decoder
 
 == HOW TO:
 * *make* - compiles HexToBinary converter and plcrashutil 
