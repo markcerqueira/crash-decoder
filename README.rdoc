@@ -2,7 +2,7 @@
 
 == HOW TO:
 * *make* - compiles HexToBinary converter and plcrashutil 
-* *crashDecoder.py ${CRASH_LOG_FILENAME}* - python script that converts the crash report from hex to binary and decodes it using plcrashutil; decoded crash report will be written to a file called, ${CRASH_LOG_FILENAME}_crash.
+* <b>crashDecoder.py ${CRASH_LOG_FILENAME}</b> - python script that converts the crash report from hex to binary and decodes it using plcrashutil; decoded crash report will be written to a file called, ${CRASH_LOG_FILENAME}_crash.
 
 == LICENSE
 This PL Crash Reporter decoder is released under the {MIT License}[http://opensource.org/licenses/MIT].
